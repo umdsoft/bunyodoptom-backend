@@ -1,0 +1,64 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Logs
+logs
+*.log
+logs/*.log
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Runtime data
+tmp/
+temp/
+*.tmp
+*.swp
+*.swo
+
+# Coverage / testing
+coverage/
+.nyc_output/
+jest-coverage/
+.vscode-test/
+
+# dotenv
+.env
+.env.local
+.env.*.local
+
+# IDE/editor
+.idea/
+.vscode/
+*.sublime-workspace
+*.sublime-project
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Build outputs
+dist/
+build/
+.cache/
+.next/
+out/
+
+# Uploaded files (agar uploads papkani gitda saqlash shart bo'lmasa)
+uploads/
+public/uploads/
+
+# Objection/Knex migration & seed artifacts (agar alohida papkada bo'lsa)
+migrations/*.js.map
+seeds/*.js.map
+
+# Swagger generated files (agar generatsiya qilinsa)
+docs/swagger.json
