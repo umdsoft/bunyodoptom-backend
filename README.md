@@ -1,4 +1,4 @@
-# 🛒 E-commerce Backend (Node.js + MySQL)
+# 🛒 Bunyod Optom E-commerce Backend (Node.js + MySQL)
 
 Bu loyiha **E-commerce platforma** uchun qurilgan **RESTful API** hisoblanadi.  
 Texnologiyalar: **Node.js**, **Express**, **Objection.js (MySQL ORM)** va **Swagger (OpenAPI 3.0)**.  
