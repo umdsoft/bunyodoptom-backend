@@ -33,7 +33,7 @@ API orqali **foydalanuvchilarni ro‘yxatdan o‘tkazish, mahsulotlarni boshqari
 ---
 
 ## 📂 Loyihaning tuzilishi
-bunyod-backend/
+```bash bunyod-backend/
 │── controllers/ # Route handlerlar
 │── routes/ # Express router fayllari
 │── models/ # Objection.js model fayllari
@@ -47,7 +47,7 @@ bunyod-backend/
 │── .env # Muhit sozlamalari
 │── .gitignore
 │── package.json
-
+```
 
 ## ⚙️ O‘rnatish va Sozlash
 
@@ -58,13 +58,16 @@ cd ecommerce-backend
 
 npm install
 
+
 PORT=4000
 NODE_ENV=development
 DATABASE_URL=mysql://root:password@localhost:3306/ecommerce
 JWT_SECRET=your_jwt_secret
 JWT_EXPIRES_IN=1d
 
-📖 API hujjatlari
+```
+
+##  📖 API hujjatlari
 
 Server ishga tushgach, Swagger UI orqali API hujjatlari:
 👉 http://localhost:4000/docs
@@ -86,7 +89,7 @@ Uploads
 
 
 
-🛡 Xavfsizlik
+## 🛡 Xavfsizlik
 
 Rate limiting (ko‘p urinishlarga qarshi)
 
@@ -99,7 +102,7 @@ JWT token-based auth
 Parollar bcrypt bilan hash qilinadi
 
 
-📌 Reja (TODO)
+## 📌 Reja (TODO)
 
  Stripe/Payme/Click kabi to‘lov providerlari integratsiyasi
 
