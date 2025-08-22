@@ -36,7 +36,7 @@ module.exports = {
     const page = Math.max(parseInt(req.query.page || '1', 10), 1);
     const limit = Math.min(Math.max(parseInt(req.query.limit || '20', 10), 1), 100);
     const users = await User.query()
-      .select('id', 'uid', 'phone', 'name', 'is_admin', 'brightday', 'created', 'updated')
+      .select('id', 'uid', 'phone', 'name', 'is_admin', 'brightday', 'created_at', 'updated')
       .page(page - 1, limit);
     res.json({ success: true, ...users });
   },
